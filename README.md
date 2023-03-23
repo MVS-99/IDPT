@@ -1,4 +1,4 @@
-# UC3M MSc in Connected Industry 4.0 - Intelligent Processing Data Tools
+# MSc Connected Industry 4.0 - Intelligent Processing Data Tools
 
 This repository contains the microassignments and final project for the Intelligent Processing Data Tools subject of the UC3M MSc in Connected Industry 4.0 program.
 
@@ -22,7 +22,7 @@ The repository is structured as follows:
 This repository is intended to show the educational milestones that we had to achieve in the master´s degree. It is not intended to serve as a software project or an algorithm development, and thus it is not maintained further than the code corresponding to the final submission of either the assignments and the final project.
 
 ## License
-The microassignments and final project included in this repository are licensed under the MIT License. See the LICENSE file for more information. Viewer is highly discouraged to copy the entirety of the code to submit your own assignment (your responsability is advised). If you have doubts about the working procedure of the algorithms or the code presented, feel free to reach :)
+The microassignments and final project included in this repository are licensed under the MIT License. See the LICENSE file for more information. Viewer is highly discouraged to copy the entirety of the code to submit your own assignment. If you have doubts about the working procedure of the algorithms or the code presented, feel free to reach :)
 
 ## Additional clarifications
 The CSV files are NOT of my creation nor part of the intellectual porperty of the code presented in the repository, they are just means for the completion of the assignments and have been facilitated by the UC3M. 
