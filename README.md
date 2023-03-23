@@ -16,8 +16,6 @@ The repository is structured as follows:
 
 - `README.md`: This file, which you are currently reading, provides an overview of the repository.
 
-## Getting Started
-
 ## Contributing
 This repository is intended to show the educational milestones that we had to achieve in the master´s degree. It is not intended to serve as a software project or an algorithm development, and thus it is not maintained further than the code corresponding to the final submission of either the assignments and the final project.
 
