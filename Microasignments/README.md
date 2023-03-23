@@ -1,6 +1,6 @@
 # MicroAssignments
 
-The following subfolders define the different so-called MicroAssignments. They are, in words of the professory (Mario Muñoz Organero)
+The following subfolders define the different so-called MicroAssignments. They are, in words of the professor (Mario Muñoz Organero)
 > “Micro” assignments to solve “small” challenges related to the theoretical sessions.
 And they have the objective of consolidate the theoretical algorithm knowledge with practical use cases.
 
@@ -10,16 +10,16 @@ There are five different assignments throught the course:
 
 This code is an analysis of a [fertility dataset](https://datahub.io/machine-learning/fertility) which consists of 100 instances with 10 attributes. Each attribute represents different characteristics of patients. These attributes include:
 
-- Season (1): season in which the analysis was performed (winter, spring, summer, fall)
-- Age (2): age at the time of analysis (18-36)
-- Childish disease (3): presence of childhood diseases, e.g. chickenpox, measles, mumps, polio (yes, no)
-- Trauma (4): presence of accidents or serious trauma (yes, no)
-- Surgical intervention (5): previous surgical intervention (yes, no)
-- High fevers in the last year (6): occurrence of high fevers in the last year (less than three months ago, more than three months ago, no)
-- Frequency of alcohol consumption (7): frequency of alcohol intake (several times a day, every day, several times a week, once a week, hardly ever or never)
-- Smoking habit (8): smoking habit (never, occasional, daily)
-- Number of hours spent sitting per day (9): number of hours spent sitting per day (0-16)
-- Diagnosis (10): diagnosis normal (N), altered (O)
+- **Season (1)**: season in which the analysis was performed *(winter, spring, summer, fall)*
+- **Age (2)**: age at the time of analysis *(18-36)*
+- **Childish disease (3)**: presence of childhood diseases, e.g. chickenpox, measles, mumps, polio *(yes, no)*
+- **Trauma (4)**: presence of accidents or serious trauma *(yes, no)*
+- **Surgical intervention (5)**: previous surgical intervention *(yes, no)*
+- **High fevers in the last year (6)**: occurrence of high fevers in the last year *(less than three months ago, more than three months ago, no)*
+- **Frequency of alcohol consumption (7)**: frequency of alcohol intake (several times a day, every day, several times a week, once a week, hardly ever or never)
+- **Smoking habit (8)**: smoking habit *(never, occasional, daily)*
+- **Number of hours spent sitting per day (9)**: number of hours spent sitting per day *(0-16)*
+- **Diagnosis (10)**: diagnosis normal *(N)*, altered *(O)*
 
 The dataset, stored in a CSV file, is stored in divided into two separate DataFrames filtered by the two possible diagnoses: normal (N) and altered (O). It computes the mean age of the patients for each diagnosis and prints a message indicating whether the mean age is higher for normal or altered diagnoses or if they are the same.
 
@@ -37,7 +37,7 @@ This is a Python script that uses Support Vector Machines (SVM) with different k
 
 Support Vector Machines (SVMs) are a type of supervised learning algorithm used for classification and regression analysis. In classification tasks, SVMs try to find a hyperplane that separates two classes of data points in the feature space. SVMs work by finding the optimal margin between two classes of data points. The margin is defined as the distance between the hyperplane and the closest data points of each class. The optimal hyperplane is the one that maximizes this margin.
 
-The script reads a CSV data set (named 'production.csv') into a pandas dataframe. The data consists of three features ('input', 'output', and 'time') and a binary target variable ('efficient').
+The script reads a CSV data set (named 'production.csv') into a pandas dataframe. The data consists of three features ('input', 'output', and 'time') which are the measures obtained directly from the system and a binary classification target variable ('efficient'). The purpose is to determine if the process has been efficient or not.
 
 The code then separates the features and target variables, and performs an analysis without testing first. It creates a grid of points for plotting the decision boundary and trains SVM models. SVMs can use different kernel functions to transform the input data into a higher-dimensional feature space, where the optimal hyperplane can be found. In this assignment the most common ones are used: linear, polynomial, radial basis function, and sigmoid.
 
