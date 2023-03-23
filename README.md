@@ -26,7 +26,7 @@ This repository is intended to show the educational milestones that we had to ac
 
 ## License
 
-The microassignments and final project included in this repository are licensed under the MIT License. See the LICENSE file for more information. Viewer is highly discouraged to copy the entirety of the code to submit your own assignment. If you have doubts about the working procedure of the algorithms or the code presented, feel free to reach :)
+The microassignments and final project included in this repository are licensed under the MIT License. See the LICENSE file for more information. User is highly discouraged to copy the entirety of the code to submit your own assignment. If you have doubts about the working procedure of the algorithms or the code presented, feel free to reach :)
 
 ## Additional clarifications
 
