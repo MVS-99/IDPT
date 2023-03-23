@@ -16,7 +16,7 @@ This code is an analysis of a [fertility dataset](https://datahub.io/machine-lea
 - **Trauma (4)**: presence of accidents or serious trauma *(yes, no)*
 - **Surgical intervention (5)**: previous surgical intervention *(yes, no)*
 - **High fevers in the last year (6)**: occurrence of high fevers in the last year *(less than three months ago, more than three months ago, no)*
-- **Frequency of alcohol consumption (7)**: frequency of alcohol intake (several times a day, every day, several times a week, once a week, hardly ever or never)
+- **Frequency of alcohol consumption (7)**: frequency of alcohol intake *(several times a day, every day, several times a week, once a week, hardly ever or never)*
 - **Smoking habit (8)**: smoking habit *(never, occasional, daily)*
 - **Number of hours spent sitting per day (9)**: number of hours spent sitting per day *(0-16)*
 - **Diagnosis (10)**: diagnosis normal *(N)*, altered *(O)*
