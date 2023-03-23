@@ -12,8 +12,9 @@ The repository is structured as follows:
 
 - `Microassignments`: This directory contains the microassignments for the subject. Each subdirectory corresponds to a specific microassignment and contains the necessary files and instructions to complete it. Packages used include:
   - `Pandas` <https://github.com/pandas-dev/pandas>
-  - `Scikit-learn` <https://github.com/scikit-learn/scikit-learn>
+  - `Numpy` <https://github.com/numpy/numpy>
   - `Matplotlib` <https://github.com/matplotlib/matplotlib>
+  - `Scikit-learn` <https://github.com/scikit-learn/scikit-learn>
 
 - `Final_Project`: This directory contains the final project for the subject. It includes a project description, data, and instructions to complete it.
 
