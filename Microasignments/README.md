@@ -31,6 +31,24 @@ This code serves as an example of how to read and analyze data stored in a CSV f
 
 ## 02 - Basic Outlier detection
 
+The code is a data analysis script that uses two different outlier detection techniques to identify anomalous data points in a machine failure dataset. The two techniques used are Local Outlier Factor (LOF) and Elliptic Envelope (EE).
+
+The LOF algorithm is a type of density-based outlier detection technique. It measures the local density of a point relative to its k-nearest neighbors and identifies outliers as points that have a much lower density than their neighbors. In this script, the LOF algorithm is applied with different values of k (i.e., number of neighbors) to determine the optimal value for this parameter. The resulting outlier scores are then plotted to visualize the outlier points.
+
+The EE algorithm, on the other hand, is a type of model-based outlier detection technique. It assumes that the data is normally distributed and fits an elliptical envelope to the data using the Mahalanobis distance metric. Outliers are identified as points that fall outside of the envelope. In this script, the EE algorithm is applied with different levels of contamination (i.e., expected proportion of outliers in the dataset) to determine the optimal level for this parameter. The resulting decision function scores are then plotted to visualize the outlier points.
+
+The script first imports the necessary libraries for data analysis, including Pandas for data manipulation, Matplotlib for data visualization, NumPy for numerical computing, and Scikit-learn for machine learning.
+
+Then, the machine failure dataset is imported from a CSV file using the Pandas library.
+
+The LOF algorithm is then applied with different values of k (3, 5, 8, 12, and 16) to determine the optimal value for this parameter. The resulting outlier scores are stored in a list and plotted using a scatter plot to visualize the outlier points.
+
+Next, the EE algorithm is applied with different levels of contamination (0.01, 0.025, 0.05, 0.075, and 0.1) to determine the optimal level for this parameter. The resulting decision function scores are stored in a list and plotted using line plots to visualize the outlier points. The decision function scores are calculated using the Mahalanobis distance metric and the offset attribute of the EE model. Negative scores indicate outliers.
+
+Finally, the outlier points are identified based on the decision function scores and the original dataset. The results show that the last two observations in the dataset are likely outliers.
+
+Overall, the script provides a comprehensive analysis of the machine failure dataset using two different outlier detection techniques. The LOF and EE algorithms can be used to identify anomalous data points in various datasets, which is useful for data cleaning, anomaly detection, and predictive modeling.
+
 ## 03 - Support Vector Machines for outlier classification
 
 This is a Python script that uses Support Vector Machines (SVM) with different kernels to fit a data set.
