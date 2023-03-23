@@ -8,6 +8,27 @@ There are five different assignments throught the course:
 
 ## 01 - Fertility Analysis (Basic understanding/manipulation of data structures)
 
+This code is an analysis of a [fertility dataset](https://datahub.io/machine-learning/fertility) which consists of 100 instances with 10 attributes. Each attribute represents different characteristics of patients. These attributes include:
+
+- Season (1): season in which the analysis was performed (winter, spring, summer, fall)
+- Age (2): age at the time of analysis (18-36)
+- Childish disease (3): presence of childhood diseases, e.g. chickenpox, measles, mumps, polio (yes, no)
+- Trauma (4): presence of accidents or serious trauma (yes, no)
+- Surgical intervention (5): previous surgical intervention (yes, no)
+- High fevers in the last year (6): occurrence of high fevers in the last year (less than three months ago, more than three months ago, no)
+- Frequency of alcohol consumption (7): frequency of alcohol intake (several times a day, every day, several times a week, once a week, hardly ever or never)
+- Smoking habit (8): smoking habit (never, occasional, daily)
+- Number of hours spent sitting per day (9): number of hours spent sitting per day (0-16)
+- Diagnosis (10): diagnosis normal (N), altered (O)
+
+The dataset, stored in a CSV file, is stored in divided into two separate DataFrames filtered by the two possible diagnoses: normal (N) and altered (O). It computes the mean age of the patients for each diagnosis and prints a message indicating whether the mean age is higher for normal or altered diagnoses or if they are the same.
+
+Afterward, a histogram is generated to compare the age distribution of both diagnoses. The number of bins is selected using the rule of thumb of approximately the square root of the number of rows to the highest. Readability options are implemented.
+
+Finally, the code converts the age columns in both DataFrames to NumPy arrays for representation ease. The arrays are defined using the .values() function.
+
+This code serves as an example of how to read and analyze data stored in a CSV file using Pandas, as well as how to generate basic visualizations using Matplotlib. It also showcases the usefulness of NumPy arrays in data analysis
+
 ## 02 - Basic Outlier detection
 
 ## 03 - Support Vector Machines for outlier classification
