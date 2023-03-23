@@ -1,6 +1,6 @@
 # MicroAssignments
 
-The following subfolders define the different so-called MicroAssignments. They are, in words of the professor (Mario Muñoz Organero)
+The following subfolders define the different so-called MicroAssignments. They are, in words of the professor ([Mario Muñoz Organero](https://www.linkedin.com/in/mario-mu%C3%B1oz-3549697/))
 > “Micro” assignments to solve “small” challenges related to the theoretical sessions.
 And they have the objective of consolidate the theoretical algorithm knowledge with practical use cases.
 
